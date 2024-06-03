@@ -20,3 +20,32 @@ box-sizing: border-box;}
 }
 em {color: #666;
 font-style: italic;}
+
+.form section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form article {
+    flex-basis: 45%;
+    margin: 20px;
+}
+.form article {
+    flex-basis: 45%;
+    margin: 20px;
+  }
+  
+  .form article label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form article input[type="text"],
+  .form article input[type="email"],
+  .form article input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
