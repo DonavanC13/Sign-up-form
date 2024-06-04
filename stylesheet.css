@@ -54,13 +54,16 @@ font-style: italic;}
     height: auto;
     margin: 0 auto;
   }
+  .rightside {
+    position: relative;
+  }
   .image-caption {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 85%;
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Helvetica',sans-serif ;
   }
