@@ -67,3 +67,26 @@ font-style: italic;}
   .form .infobox .mismatch-text {
     color: red;
   }
+
+  #submit-form {
+    background-color: #007bff; /* blue background color */
+    color: #fff; /* white text color */
+    padding: 12px 24px; /* add some padding for better usability */
+    border: none; /* remove default border */
+    border-radius: 8px; /* add some rounded corners for a modern look */
+    font-size: 16px; /* make text larger for better readability */
+    font-weight: bold; /* make text bold for better contrast */
+    cursor: pointer; /* change cursor to a pointing hand on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* add a subtle box shadow */
+    transition: background-color 0.2s ease-in-out; /* add transition effect */
+  }
+
+  #submit-form:hover {
+    background-color: #0069d9; /* darker blue background color on hover */
+  }
+  
+  #submit-form:active {
+    background-color: #0069d9; /* darker blue background color on active */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* add a subtle box shadow on active */
+    transform: translateY(2px); /* add a subtle press effect on active */
+  }
